@@ -53,6 +53,10 @@ h1 {
     font-weight: bolder;
 }
 
+main .container {
+    width: 1000px;
+    margin: 0 auto;
+}
 
 
 
@@ -161,8 +165,8 @@ HEADER
 }
 
 .jumbotron .img.jumbo {
-    width: 107%;
-    padding-top: 15px;
+    width: 108%;
+    padding-top: 18px;
 
 }
 
@@ -174,6 +178,19 @@ HEADER
 /*
 MAIN
 */
+
+main .subscribe {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+main .subscribe h2 {
+    padding-top: 165px;
+    font-size: 40px;
+}
+
+
+
 
 
 
