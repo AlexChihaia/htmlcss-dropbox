@@ -42,11 +42,18 @@ li {
     border: none;
 }
 
+.button.blue:hover {
+    cursor: pointer;
+    transition-duration: 0.3s;
+    box-shadow: 10px;
+    filter: brightness(1.2);
+}
+
 .button:hover {
     cursor: pointer;
     transition-duration: 0.3s;
     box-shadow: 10px;
-    background-color: #2c7bfa;
+    filter: brightness(0.8);
 }
 
 h1 {
@@ -199,7 +206,8 @@ header .buttons li {
 MAIN
 */
 
-main .subscribe {
+main .subscribe,
+main .partner {
     width: 1000px;
     margin: 0 auto;
 }
@@ -278,7 +286,8 @@ main .subscribe .container .container-button {
     padding-top: 20px;
 }
 
-.piani h3 {
+.piani h3,
+.sinistra h3 {
     padding-bottom: 20px;
     padding-top: 35px;
     font-weight: 700;
@@ -305,11 +314,59 @@ main .subscribe h4 {
     padding-top: 55px;
 }
 
+main .subscribe .col.title.full {
+    width: 100%;
+    margin-top: 50px;
+}
 
+main .col.content.full {
+    width: 100%;
+    border: 1px solid #d0d0d3;
+    padding-bottom: 35px;
+    display: flex;
+}
 
+.col.content.full .sinistra {
+    width: 70%;
+}
 
+.subscribe .col.content.full .destra {
+    width: 30%;
+    padding-top: 33px;
+    text-align: center;
+}
 
+.sinistra p {
+    padding-top: 60px;
+}
 
+main .partner {
+    padding-top: 150px;
+}
+
+main .partner .col.content.full {
+    border: none;
+}
+
+main .partner .sinistra {
+    width: 60%;
+}
+
+.partner .sinistra img {
+    width: 100%;
+    display: block;
+}
+
+.partner .destra {
+    padding: 55px 50px;
+    text-align: start;
+    width: 40%;
+}
+
+main .partner .destra p {
+    padding-top: 25px;
+    padding-bottom: 35px;
+}
 
 /*
 FOOTER
