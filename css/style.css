@@ -76,7 +76,7 @@ main .padding {
 }
 
 main p {
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .fa-solid.fa-check {
@@ -88,7 +88,41 @@ main p {
     font-weight: 700;
 }
 
+.green {
+    background-color: #a2d39b;
+}
 
+.box-img.green.border {
+    border: 15px solid #d1e9cd;
+}
+
+.bordeaux {
+    background-color: #61082b;
+}
+
+.celeste {
+    background-color: #0093ce;
+}
+
+.orange {
+    background-color: #ff1c1c;
+}
+
+.red {
+    background-color: #d5001f;
+}
+
+.lightblue {
+    background-color: #b4d0e7;
+}
+
+.darkblue {
+    background-color: #0d2481;
+}
+
+.yellow {
+    background-color: #ffd830;
+}
 
 
 
@@ -114,6 +148,7 @@ HEADER
     height: 80px;
     position: fixed;
     background-color: white;
+    z-index: 2;
 }
 
 header #logo {
@@ -127,6 +162,7 @@ header #logo {
     height: 80px;
     right: 0;
     background-color: white;
+    z-index: 2;
 }
 
 .menu.left .buttons {
@@ -217,7 +253,9 @@ MAIN
 
 main .subscribe,
 main .partner,
-main .business {
+main .business,
+main .container-small,
+main .domande {
     width: 1000px;
     margin: 0 auto;
 }
@@ -272,7 +310,7 @@ main .container.content {
 main .container.content .concept-break {
     width: 48px;
     margin-left: 32px;
-    padding-top: 40px;
+    margin-top: 40px;
 }
 
 
@@ -316,7 +354,7 @@ main .subscribe .container .container-button {
 }
 
 .piani strong {
-    font-size: 15px;
+    font-size: 17px;
 }
 
 main .subscribe ul {
@@ -398,8 +436,163 @@ main .partner .destra p {
     width: 100%;
 }
 
+main .companies .container-companies {
+    display: flex;
+}
+
+main .container-companies .box {
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+
+}
+
+main .container-companies .box-img {
+    width: 50%;
+    height: 50%;
+    position: relative;
+}
+
+main .container-companies .box-img .svg {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(1);
+
+}
+
+.container-small {
+    padding-bottom: 150px;
+}
+
+.container-small h2 {
+    width: 60%;
+    margin-top: 155px;
+    margin-bottom: 65px;
+}
+
+.container-small a {
+    padding-top: 65px;
+    margin-bottom: 150px;
+}
+
+
+main .companies .container-companies .box.middle {
+    padding: 50px;
+    background-color: #f5f5f5;
+    overflow: auto;
+}
+
+main .companies .container-companies .box.middle .designit {
+    max-height: calc(100% / 3);
+}
+
+main .companies .container-companies .box.middle .designit img {
+    width: 70%;
+}
+
+main .companies .container-companies .box.middle .designit .concept-break {
+    width: 20%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.container-small.flex {
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.container-big {
+    background-color: #b4d0e7;
+}
+
+.container-small.flex .button-container {
+    align-self: center;
+    margin-top: 35px;
+
+}
+
+.container-small.flex .button-container .button {
+    padding-left: 35px;
+    padding-right: 35px;
+    width: 300px;
+}
+
+.colored {
+    color: #61082b;
+}
+
+.wd {
+    width: 65%;
+}
+
+.container-small.flex h2 {
+    width: 80%;
+}
+
+.domanda.flex {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    cursor: pointer;
+}
+
+.domanda.flex:hover {}
 
 
 /*
 FOOTER
 */
+footer {
+    background-color: #000000;
+}
+
+footer .container-footer {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+footer .container-footer .col-footer {
+    width: calc(100% / 5);
+}
+
+footer .container-footer .col-footer h3 {
+    padding-bottom: 35px;
+    color: white;
+
+}
+
+footer .container-footer .col-footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer .container-footer .col-footer p {
+    padding-bottom: 20px;
+    font-size: 15px;
+}
+
+.concept {
+    width: 100%;
+}
+
+footer hr {
+    color: white;
+    width: 10%;
+
+}
+
+footer .concept>P {
+    color: #999999;
+    padding-top: 20px;
+    font-size: 14px;
+
+}
