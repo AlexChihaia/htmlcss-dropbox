@@ -188,6 +188,11 @@ header #logo {
 
 header .buttons li {
     line-height: 80px;
+    border-bottom: 2px transparent;
+}
+
+header .buttons .hover:hover {
+    border-bottom: 2px solid black;
 }
 
 .top-menu .menu .button.blue {
@@ -541,8 +546,23 @@ main .companies .container-companies .box.middle .designit .concept-break {
     cursor: pointer;
 }
 
-.domanda.flex:hover {}
+.bonus {
+    display: none;
 
+}
+
+.container-bonus:hover .bonus {
+    display: inline-block;
+}
+
+.container-bonus:hover .backwards-bonus {
+    display: none;
+}
+
+.bonus p {
+    font-size: 14px;
+    padding-bottom: 20px;
+}
 
 /*
 FOOTER
