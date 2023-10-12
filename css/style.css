@@ -391,11 +391,11 @@ main .col.content.full {
 }
 
 .col.content.full .sinistra {
-    width: 60%;
+    width: 70%;
 }
 
 .subscribe .col.content.full .destra {
-    width: 40%;
+    width: 30%;
     padding-top: 33px;
     text-align: center;
 }
