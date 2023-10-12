@@ -505,6 +505,10 @@ main .companies .container-companies .box.middle .designit .concept-break {
     margin-bottom: 40px;
 }
 
+main .box.middle .padding-top {
+    margin-top: -60px;
+}
+
 .container-small.flex {
     display: flex;
     padding-bottom: 100px;
